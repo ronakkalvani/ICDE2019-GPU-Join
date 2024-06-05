@@ -24,9 +24,9 @@ SOFTWARE.*/
 #include <limits.h>				/*INT_MAX*/
 #include <getopt.h>
 
-#include "generator_ETHZ.cuh"
-#include "common.h"
-#include "common-host.h"
+#include "/csproject/yike/intern/ronak/ICDE2019-GPU-Join/src/generator_ETHZ.cuh"
+#include "/csproject/yike/intern/ronak/ICDE2019-GPU-Join/src/common.h"
+#include "/csproject/yike/intern/ronak/ICDE2019-GPU-Join/src/common-host.h"
 
 unsigned int hashJoinClusteredProbe(args *inputAttrs, timingInfo *time);
 
