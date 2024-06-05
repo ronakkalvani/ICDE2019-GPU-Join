@@ -16,7 +16,7 @@ RELEASEFLAGS+=
 # RELEASEFLAGS+= -DNDEBUG
 
 # CUDA_INSTALL_PATH?=/usr/local/cuda
-CUDA_INSTALL_PATH?=/usr/local/cuda-12.0.1/bin/
+CUDA_INSTALL_PATH?=/usr/local/cuda-12.0.1
 
 LDLIBS=-lgomp -lnuma
 
